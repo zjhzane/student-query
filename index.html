@@ -291,7 +291,7 @@
 
     <script>
         // 定义一个统一的数据URL常量
-        const DATA_URL = 'https://cdn.jsdelivr.net/gh/zjhzane/student-query@latest/data.json';
+        const DATA_URL = `https://cdn.jsdelivr.net/gh/zjhzane/student-query@latest/data.json?t=${new Date().getTime()}`;
 
         // 页面加载完成后立即获取所有数据
         document.addEventListener('DOMContentLoaded', async function() {
